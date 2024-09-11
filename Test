@@ -1,0 +1,10 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create("Test")
+
+---Tabs---
+
+local tab1 = window:CreateTab("nothink")
+
+tab1:CreateButton("auto parry", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Astral-Hub-Auto-Spam-Auto-Parry-16837"))()
+end)
